@@ -105,6 +105,7 @@
 /*CAPA INICIO*/
 
 .capa{
+    filter: drop-shadow( 10px 10px 10px  #000000);
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -240,7 +241,7 @@ section.luta h3{
 }
 
 .luta-single-container img{
-    width:40%;
+    width:50%;
     filter: drop-shadow(10px 10px 10px #000000);
     
 }
