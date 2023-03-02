@@ -2,9 +2,8 @@
      margin: 0 ;
      padding: 0;
      box-sizing: border-box;
-    
-     
-     
+     font-family: 'Michroma', sans-serif;
+  
      
 }
  body{
@@ -31,9 +30,6 @@
     
 }
 
-.logo-container{
-    
-}
 
 .logo-container i{
     color: white;
@@ -130,7 +126,6 @@ section.main{
     
     background-image: linear-gradient(-90deg, #801313,#471313);
     padding: 20px 0 ;
-   
     color: white;
 }
 
@@ -139,6 +134,9 @@ section.main{
     align-items: center;
 }
 
+.caixa-container h3{
+   font-size: 100px;
+}
 .caixa-container img{
    
     border-radius: 100%;
@@ -335,7 +333,25 @@ footer a{
     color:red;
 }
 
-.capa, .luta-single-container, .luta-single-container2, .luta-single-container3, .caixa h3, .caixa-container, .caixa-container img, .caixa p, .luta-single h3, .luta-single p{
+.button {
+  background-image: linear-gradient(-45deg,  #801313,#471313);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 20%;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  }
+
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+
+    .capa, .luta-single-container, .luta-single-container2, .luta-single-container3, .caixa h3, .caixa-container, .caixa-container img, .caixa p, .luta-single h3, .luta-single p{
     visibility: hidden;
 }
 
@@ -352,13 +368,20 @@ footer a{
 
     .luta-single h3{
         text-align: center;
+       
     }
 
     .luta-single p{
         text-align: center;
     }
 
-    
+    .caixa-container ul{
+        font-size: 10px;
+    }
+
+    .luta-single-container h3{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 1000px){
